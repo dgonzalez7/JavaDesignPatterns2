@@ -31,6 +31,26 @@ public abstract class AbstractVehicle implements Vehicle
 		this.color = color;
 	}
 	
+	public void cleanInterior() 
+	{
+		System.out.println("Cleaning interior");
+	}
+	
+	public void cleanExteriorBody() 
+	{
+		System.out.println("Cleaning exterior");
+	}
+	
+	public void polishWindows() 
+	{
+		System.out.println("Polishing windows");
+	}
+	
+	public void takeForTestDrive() 
+	{
+		System.out.println("Taking for test driver");
+	}
+	
 	public Object clone()
 	{
 		Object obj = null;
